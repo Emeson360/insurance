@@ -1596,3 +1596,14 @@ textarea.input {
     margin-left: 0px;
   }
 }
+
+
+@media screen and (max-width: 426px) {
+  .we-are-here-card-con {
+    display: block;
+  }
+
+  .we-are-here-card {
+    width: 100%;
+  }
+}
