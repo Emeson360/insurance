@@ -52,6 +52,60 @@ RESPONSIVE
   height: fit-content;
 }
 
+.we-are-here {
+  background-image: linear-gradient(to right, #0D75CE, #1985CC, #38A9C9);
+}
+
+.we-are-here div {
+  width: 79%;
+  margin: auto;
+  padding: 60px 0;
+}
+
+.we-are-here h3, .we-are-here p {
+  color: white;
+}
+
+.we-are-here-card-con {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid red;
+}
+
+.we-are-here-card {
+  position: relative;
+  width: 33%;
+}
+
+.we-are-here-card img {
+  filter: brightness(40%);
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+.we-are-here-card small {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  border-bottom: 6px solid white ;
+}
+
+.we-are-here-card .diff {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  color: white;
+  border-bottom: 6px solid white ;
+}
+
+.we-are-here-card small:hover {
+  color: #5DA6F3;
+}
+
 
 
 body {
@@ -747,7 +801,7 @@ textarea.input {
 .post .post-body {
   position: relative;
   margin: -50px 0px 0px 3%;
-  padding: 5%;
+  padding: 5% 0;
   background: #fff;
   z-index: 10;
 }
