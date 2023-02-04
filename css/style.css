@@ -69,7 +69,6 @@ RESPONSIVE
 .we-are-here-card-con {
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid red;
 }
 
 .we-are-here-card {
