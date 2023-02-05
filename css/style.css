@@ -54,10 +54,11 @@ RESPONSIVE
 
 .we-are-here {
   background-image: linear-gradient(to right, #0D75CE, #1985CC, #38A9C9);
+  width: 100%;
 }
 
 .we-are-here div {
-  width: 79%;
+  width: 80%;
   margin: auto;
   padding: 60px 0;
 }
@@ -68,12 +69,14 @@ RESPONSIVE
 
 .we-are-here-card-con {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .we-are-here-card {
   position: relative;
   width: 33%;
+  margin-bottom: 6px;
 }
 
 .we-are-here-card img {
@@ -104,6 +107,13 @@ RESPONSIVE
 .we-are-here-card small:hover {
   color: #5DA6F3;
 }
+
+.partners {
+  margin: 50px 0;
+  font-size: 40px;
+  color: #182544;
+}
+
 
 
 
@@ -137,8 +147,6 @@ h3 {
 h4 {
   font-size: 16px;
 }
-
-h5 {}
 
 p {
   margin: 0px 0px 20px;
@@ -808,6 +816,7 @@ textarea.input {
 .post .post-img {
   display: block;
   overflow: hidden;
+  width: 100%;
 }
 
 .post-img>img {
@@ -1567,7 +1576,7 @@ textarea.input {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
   .page-header h1 {
     font-size: 32.437px;
   }
@@ -1590,10 +1599,20 @@ textarea.input {
     padding-left: 0px;
     text-align: left;
   }
+
   .post-nav .next-post .post-img {
     margin-right: 15px;
     float: left;
-    margin-left: 0px;
+    margin: auto;
+  }
+
+  /* .post-thumb {
+    width: 100%;
+    border: 1px solid red;
+  } */
+
+  .unique-carousel {
+    display: none;
   }
 }
 
@@ -1603,7 +1622,17 @@ textarea.input {
     display: block;
   }
 
+  .main-carousel {
+    width: 60%;
+    margin: auto;
+    
+  }
+
   .we-are-here-card {
     width: 100%;
+  }
+
+  .other-carousel {
+    display: none;
   }
 }
