@@ -1381,14 +1381,40 @@ textarea.input {
 ===========================================================*/
 
 #footer {
-  margin-top: 40px;
-  padding-top: 80px;
-  padding-bottom: 40px;
+  margin-top: 100px;
+  padding-top: 150px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-bottom: 0;
+  margin-right: 50px;
+  width: 100%;
+  padding-bottom: 10px;
   background-color: #1b1c1e;
+  color: #97989b;
+
 }
 
-#footer {
-  color: #97989b;
+.ccfc
+{
+width: 100%;
+height: 30%;
+background: white;
+border-radius: 50%;
+position: absolute;
+top: -15.5%;
+}
+
+.ccf
+{
+width: 3%;
+height: 3%;
+background: #063970;
+opacity: 0.8;
+border-radius: 100%;
+position: absolute;
+top: 5%;
+left: 48%;
+padding: 40px;
 }
 
 #footer a {
@@ -1431,7 +1457,7 @@ textarea.input {
 
 .footer-nav li {
   display: inline-block;
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 
 /*----------------------------*\
