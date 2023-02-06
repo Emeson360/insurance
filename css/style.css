@@ -108,10 +108,31 @@ RESPONSIVE
   color: #5DA6F3;
 }
 
-.partners {
-  margin: 50px 0;
-  font-size: 40px;
-  color: #182544;
+.get-started {
+  background-image: url('../img/solutions-business-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.get-started-form {
+  width: 76%;
+}
+
+.get-quote-logo {
+  font-variant: small-caps;
+  letter-spacing: 3px;
+}
+
+.angle1 {
+  color: #55E4FA;
+}
+
+.angle2 {
+  color: #75A8E0;
+}
+
+.angle3 {
+  color: #212E46;
 }
 
 
