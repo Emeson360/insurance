@@ -75,3 +75,36 @@ function equalHeight(group) {
         }
     });
 }); */
+
+
+
+var btn1 = document.getElementById('activeBtn1');
+var btn2 = document.getElementById('activeBtn2');
+var btn3 = document.getElementById('activeBtn3');
+var btn4 = document.getElementById('activeBtn4');
+
+btn1.addEventListener('click', () => {
+    btn1.classList.add('activeBtn');
+    btn2.classList.remove('activeBtn');
+    btn3.classList.remove('activeBtn');
+    btn4.classList.remove('activeBtn');
+})
+
+btn2.addEventListener('click', () => {
+    btn1.classList.remove('activeBtn');
+    btn2.classList.add('activeBtn');
+    btn3.classList.remove('activeBtn');
+    btn4.classList.remove('activeBtn');
+})
+btn3.addEventListener('click', () => {
+    btn1.classList.remove('activeBtn');
+    btn2.classList.remove('activeBtn');
+    btn3.classList.add('activeBtn');
+    btn4.classList.remove('activeBtn');
+})
+btn4.addEventListener('click', () => {
+    btn1.classList.remove('activeBtn');
+    btn2.classList.remove('activeBtn');
+    btn3.classList.remove('activeBtn');
+    btn4.classList.add('activeBtn');
+})

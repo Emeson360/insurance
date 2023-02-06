@@ -118,6 +118,10 @@ RESPONSIVE
   width: 76%;
 }
 
+.get-started-form h2 {
+  font-size: 36px;
+}
+
 .get-quote-logo {
   font-variant: small-caps;
   letter-spacing: 3px;
@@ -134,6 +138,69 @@ RESPONSIVE
 .angle3 {
   color: #212E46;
 }
+
+.get-started-form-btn {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.get-started-form-btn button {
+  padding: 5px 25px;
+  background-color: #16243D;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.get-started-form-btn .activeBtn {
+  background-color: #015FC9;
+}
+
+.activeBtn {
+  background-color: #015FC9;
+}
+
+.get-quote-form input:not(.getQuoteNow){
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.get-quote-form select{
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.rangeLabel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.getQuoteNow {
+  width: 50%;
+  background-color: #015BC1;
+  color: #fff;
+  margin-bottom: 12px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -580,10 +647,10 @@ textarea.input {
   border-top: 2px solid #ee4266;
 }
 
-.dropdown .dropdown-list li {
-  /* border-bottom: 1px solid #e8eaed; */
+/* .dropdown .dropdown-list li {
+  border-bottom: 1px solid #e8eaed;
 
-}
+} */
 
 .dropdown .dropdown-list li a {
   display: block;
