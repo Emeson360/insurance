@@ -10,37 +10,33 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CMuli:400,700" rel="stylesheet">
 
-	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+	<link href="https://agencywebsites.ezlynx.com/bootstrap3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
-	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.css">
 
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	<link href="css/master.css" rel="stylesheet" type="text/css">
+
+	<link href="css/media-queries.css" rel="stylesheet" type="text/css">
 
 
 	<!--[if lt IE 9]>
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
-	<script
-		nonce="d990df64-15a1-4ba5-8d2d-626326c0dda4">(function (w, d) { !function (e, f, g, h) { e.zarazData = e.zarazData || {}; e.zarazData.executed = []; e.zaraz = { deferred: [], listeners: [] }; e.zaraz.q = []; e.zaraz._f = function (i) { return function () { var j = Array.prototype.slice.call(arguments); e.zaraz.q.push({ m: i, a: j }) } }; for (const k of ["track", "set", "debug"]) e.zaraz[k] = e.zaraz._f(k); e.zaraz.init = () => { var l = f.getElementsByTagName(h)[0], m = f.createElement(h), n = f.getElementsByTagName("title")[0]; n && (e.zarazData.t = f.getElementsByTagName("title")[0].text); e.zarazData.x = Math.random(); e.zarazData.w = e.screen.width; e.zarazData.h = e.screen.height; e.zarazData.j = e.innerHeight; e.zarazData.e = e.innerWidth; e.zarazData.l = e.location.href; e.zarazData.r = f.referrer; e.zarazData.k = e.screen.colorDepth; e.zarazData.n = f.characterSet; e.zarazData.o = (new Date).getTimezoneOffset(); if (e.dataLayer) for (const r of Object.entries(Object.entries(dataLayer).reduce(((s, t) => ({ ...s[1], ...t[1] }))))) zaraz.set(r[0], r[1], { scope: "page" }); e.zarazData.q = []; for (; e.zaraz.q.length;) { const u = e.zaraz.q.shift(); e.zarazData.q.push(u) } m.defer = !0; for (const v of [localStorage, sessionStorage]) Object.keys(v || {}).filter((x => x.startsWith("_zaraz_"))).forEach((w => { try { e.zarazData["z_" + w.slice(7)] = JSON.parse(v.getItem(w)) } catch { e.zarazData["z_" + w.slice(7)] = v.getItem(w) } })); m.referrerPolicy = "origin"; m.src = "../../cdn-cgi/zaraz/sd0d9.js?z=" + btoa(encodeURIComponent(JSON.stringify(e.zarazData))); l.parentNode.insertBefore(m, l) };["complete", "interactive"].includes(f.readyState) ? zaraz.init() : e.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, 0, "script"); })(window, document);</script>
-</head>
+
 
 <body>
 
 
-
-
 	<header id="header">
 		<div id="nav">
-			<div id="nav-top" style="width: 100%; ">
+			<div id="nav-top" style="width: 100%; background-color: #fff; ">
 				<div class="container" style="width: 90%;">
 					<div class="nav-social">
 						<a href="index.html" class="logo"><img src="img/onepoint-insurance-agency.png" alt=""></a>
 					</div>
-
-
-
-
 
 					<div class="nav-btns">
 						<ul class="nav-social" style="margin-right: 50px;">
@@ -53,7 +49,7 @@
 
 
 
-			<div id="nav-bottom" style="background-color: #203652; border: 1px solid yellow; padding: 10px 0;">
+			<div id="nav-bottom" style="background-color: #203652; padding: 10px 0; clear: both;">
 				<div class="container">
 
 					<ul class="nav-menu">
@@ -78,9 +74,6 @@
 								<div class="dropdown-body" style="height: 686px; width: 100%; ">
 									<div class="meg" style="width: 100%; ">
 										<div class="width-16">
-
-
-
 
 
 
@@ -266,11 +259,8 @@
 
 
 
-
-
-
 	<div class="section">
-		<div class="container" style=" width: 100%; margin-top: 0; ">
+		<div class="container-fluid" style=" width: 100%; margin-top: 0; ">
 			<div id="hot-post" class="row">
 				<div class=" hot-post-left">
 					<div class="post post-thumb ">
@@ -291,96 +281,347 @@
 		</div>
 	</div>
 	<div class="section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					
+		<div class="container-fluid">
+			<div class="post">
+				<div class="post-body">
+					<div class="post-category">
+						<div class="row">
+							<div class="col-md-12"></div>
+							<div class="section-title ">
+								<h2 class="title">WHO WE ARE AND HOW WE WORK</h2>
+							</div>
+						</div>
 
-					<div class="post" >
-						<div class="post-body" >
-							<div class="post-category">
-								<div class="row">
-									<div class="col-md-12"></div>
-									<div class="section-title ">
-										<h2 class="title">WHO WE ARE AND HOW WE WORK</h2>
+						<a>Who We are</a>
+					</div>
+					<div class="row" style="padding-right: 20px;">
+						<div class="col-md-7">
+							<p class="post-title">At OnePoint Insurance Agency, we are committed to providing you with
+								the best service possible.We offer services across Georgia and beyond. </p>
+							<ul class="post-meta">
+								<li><a href="#">Read More</a></li>
+							</ul>
+						</div>
+						<div class="col-md-5">
+							<a class="post-img" href="blog-post.html"><img src="img/post-1.jpg" alt=""></a>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+
+			<div class=" we-are-here">
+				<div>
+					<h3>HERE FOR YOU THROUGH THE GOOD TIMES AND THE BAD - BUT ESPECIALLY THE BAD</h3>
+					<p>Whatever risk you face and whatever cover you need, OnePoint Insurance will support you. We have
+						expertise covering every sector for all forms of insurance, so you can rest assured that
+						whatever happens, we'll have your back.</p>
+				</div>
+			</div>
+
+			<div class="we-are-here-card-con">
+				<div class=" we-are-here-card">
+					<a class="post-img" href="blog-post.html"><img src="img/post-4.jpg" alt=""></a>
+					<small>COMMERCIAL INSURANCE</small>
+				</div>
+				<div class=" we-are-here-card">
+					<a class="post-img" href="blog-post.html"><img src="img/post-7.jpg" alt=""></a>
+					<small>PRIVATE CLIENT INSURANCE</small>
+				</div>
+				<div class=" we-are-here-card">
+					<a class="post-img" href="blog-post.html"><img src="img/post-9.jpg" alt=""></a>
+					<small class="diff">SPORTS AND LEISURE INSURANCE</small>
+				</div>
+				<div class=" we-are-here-card">
+					<a class="post-img" href="blog-post.html"><img src="img/post-8.jpg" alt=""></a>
+					<small>RISK MANAGEMENT</small>
+				</div>
+				<div class=" we-are-here-card">
+					<a class="post-img" href="blog-post.html"><img src="img/post-11.jpg" alt=""></a>
+					<small>SMALL BUSINESS INSURANCE</small>
+				</div>
+				<div class=" we-are-here-card">
+					<a class="post-img" href="blog-post.html"><img src="img/post-10.jpg" alt=""></a>
+					<small>INSURANCE COVERS</small>
+				</div>
+			</div>
+
+			<div class="container no-pad-in">
+				<div class="row carrier">
+					<div class="ins-nslider">
+						<h3 class="editable carrier-head" id="carriers-ed">Partner Carriers</h3>
+						<ul class="agency-logos slider">
+							<li><img src="img/partners logo/aegis.png" alt="Aegis"></li>
+							<li><img src="img/partners logo/aetna.png" alt="Aetna"></li>
+							<li><img src="img/partners logo/aig.png" alt="aig"></li>
+							<li><img src="img/partners logo/ambetter.png" alt="ambetter"></li>
+							<li><img src="img/partners logo/american-modern.png" alt="american modern"></li>
+							<li><img src="img/partners logo/ameritas.png" alt="ameritas"></li>
+							<li><img src="img/partners logo/amtrust.png" alt="amtrust"></li>
+							<li><img src="img/partners logo/assurity.png" alt="assurity"></li>
+							<li><img src="img/partners logo/attune.png" alt="attune"></li>
+							<li><img src="img/partners logo/biberk.png" alt="biberk"></li>
+							<li><img src="img/partners logo/bluecross.png" alt="bluecross"></li>
+							<li><img src="img/partners logo/bright-health.png" alt="bright health"></li>
+							<li><img src="img/partners logo/bristol-west.png" alt="bristol west"></li>
+							<li><img src="img/partners logo/btis.png" alt="btis"></li>
+							<li><img src="img/partners logo/chubb.png" alt="chubb"></li>
+							<li><img src="img/partners logo/cigna.png" alt="cigna"></li>
+							<li><img src="img/partners logo/columbus.png" alt="columbus"></li>
+							<li><img src="img/partners logo/coterie.png" alt="coterie"></li>
+							<li><img src="img/partners logo/cowbell.png" alt="cowbell"></li>
+							<li><img src="img/partners logo/dentaquest.png" alt="dentaquest"></li>
+							<li><img src="img/partners logo/elephant.png" alt="elephant"></li>
+							<li><img src="img/partners logo/encompass.png" alt="encompass"></li>
+							<li><img src="img/partners logo/foremost.png" alt="foremost"></li>
+							<li><img src="img/partners logo/friday-health.png" alt="friday health"></li>
+							<li><img src="img/partners logo/hagerty.png" alt="hagerty"></li>
+							<li><img src="img/partners logo/hippo.png" alt="hippo"></li>
+							<li><img src="img/partners logo/humana.png" alt="humana"></li>
+							<li><img src="img/partners logo/infinity.png" alt="infinity"></li>
+							<li><img src="img/partners logo/kaiser.png" alt="kaiser"></li>
+							<li><img src="img/partners logo/kemper.png" alt="kemper"></li>
+							<li><img src="img/partners logo/liberty-mutual.png" alt="liberty mutual"></li>
+							<li><img src="img/partners logo/manhattan.png" alt="manhattan"></li>
+							<li><img src="img/partners logo/markel.png" alt="markel"></li>
+							<li><img src="img/partners logo/mutual-omaha.png" alt="mutual omaha"></li>
+							<li><img src="img/partners logo/national-general.png" alt="national general"></li>
+							<li><img src="img/partners logo/nationwide.png" alt="nationwide"></li>
+							<li><img src="img/partners logo/neptune.png" alt="neptune"></li>
+							<li><img src="img/partners logo/openly.png" alt="openly"></li>
+							<li><img src="img/partners logo/oscar.png" alt="oscar"></li>
+							<li><img src="img/partners logo/pivot.png" alt="pivot"></li>
+							<li><img src="img/partners logo/progressive.png" alt="progressive"></li>
+							<li><img src="img/partners logo/rli.png" alt="rli"></li>
+							<li><img src="img/partners logo/rps.png" alt="rps"></li>
+							<li><img src="img/partners logo/safeco.png" alt="safeco"></li>
+							<li><img src="img/partners logo/securian.png" alt="securian"></li>
+							<li><img src="img/partners logo/sis.png" alt="sis"></li>
+							<li><img src="img/partners logo/state-auto.png" alt="state auto"></li>
+							<li><img src="img/partners logo/the-hartford.png" alt="the hartford"></li>
+							<li><img src="img/partners logo/thimble.png" alt="thimble"></li>
+							<li><img src="img/partners logo/tower-hills.png" alt="tower hills"></li>
+							<li><img src="img/partners logo/transamerica.png" alt="transamerica"></li>
+							<li><img src="img/partners logo/travelers.png" alt="travelers"></li>
+							<li><img src="img/partners logo/united-america.png" alt="united america"></li>
+							<li><img src="img/partners logo/united-healthcare.png" alt="united healthcare"></li>
+							<li><img src="img/partners logo/unum.png" alt="unum"></li>
+
+
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="get-started section">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="./img/widget-1.jpg" width="100%" alt="">
+					</div>
+					<div class="col-md-6">
+						<div class="get-started-form">
+
+							<p class="get-quote-logo">
+								<span class="angle1"><i class="fa fa-angle-right"></i></span><span class="angle2"><i
+										class="fa fa-angle-right"></i></span><span class="angle3"><i
+										class="fa fa-angle-right"></i></span> Get a free estimate
+								<span class="angle1"><i class="fa fa-angle-left"></i></span><span class="angle2"><i
+										class="fa fa-angle-left"></i></span><span class="angle3"><i
+										class="fa fa-angle-left"></i></span>
+							</p>
+							<h2>Get an insurance quote to get started!</h2>
+							<div class="get-started-form-btn">
+								<button id="activeBtn1" class="activeBtn">HOME</button>
+								<button id="activeBtn2">VEHICLE</button>
+								<button id="activeBtn3">HEALTH</button>
+								<button id="activeBtn4">LIFE</button>
+							</div>
+
+							<form class="get-quote-form" action="">
+								<div class="col-12">
+									<input type="text" placeholder="Fullname">
+								</div>
+								<div class="col-12">
+									<input type="email" placeholder="Email">
+								</div>
+								<div class="col-12">
+									<select name="" id="">
+										<option value="">Select type of insurance</option>
+										<option value="">Insurance 1</option>
+										<option value="">Insurance 1</option>
+										<option value="">Insurance 1</option>
+										<option value="">Insurance 1</option>
+										<option value="">Insurance 1</option>
+									</select>
+								</div>
+								<div class="col-12 range">
+									<div class="rangeLabel">
+										<label for="">Limits Of balance</label>
+										<label for="">$70,000</label>
+									</div>
+									<input type="range" name="" id="">
+								</div>
+								<div class="col-12">
+									<input class="getQuoteNow" type="submit" value="Get a Quote Now">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="social-pattern" style="margin: 40px 0; padding: 20px; border: 1px solid red;">
+				<div class="container">
+					<div class="row col-md-12">
+
+						<div class="silver_content col-md-12 hpy-client" id="ancher_content1">
+
+
+							<h3 class="editable" id="cli-ed" style="font-size: 30px; font-weight: 300;">Clients Reviews
+							</h3>
+
+							<div id="myCarousell" class="carousel slide">
+								<div class="carousel-inner">
+									<div class="active item">
+
+										<p><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+												aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+												class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+												aria-hidden="true"></i></p>
+										<p>This best customer service that I have ever had. Vera goes beyond helping,
+											she makes
+											sure she finds the best insurance that fits u and makes sure that u are
+											comfortable
+											with it. I don't know how my mother found this company, but I am beyond
+											blessed and
+											happy with it. I needed help quickly and she delivered. I tear up as I write
+											this
+											because now a days you can't find people that are that willing to help like
+											she did.
+											I will definitely recommend ANYONE to this company. I promise u will leave
+											comfortable and satisfied. Thank you so much Vera for helping me u are an
+											AWESOMELY
+											AMAZING person ❤</p>
+										<p><strong>- Torie Wesby</strong></p>
+
+									</div>
+
+									<div class="item">
+
+										<p><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+												aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+												class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+												aria-hidden="true"></i></p>
+										<p>Each time I call her she responds as soon as possible. Even when I email her.
+											Vera is
+											very courteous. Very professional and knows her job throughly. Her service
+											is
+											exceptionally excellent so much so that I have referred many family and
+											friends to
+											her. She has been a blessing to me and my family.</p>
+										<p><strong>- Elizabeth Bush</strong></p>
+
+									</div>
+
+									<div class="item">
+
+										<p><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+												aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+												class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+												aria-hidden="true"></i></p>
+										<p>This company knows their stuff! I had the wonderful opportunity to work with
+											Ms.Vera
+											and she took her time to explain everything in depth, and left me feeling
+											very
+											confident with knowledge for future reference. Definitely would recommend
+											her 10/10.
+											Look forward to working with her again in the future!</p>
+										<p><strong>- DeraTheDoll</strong></p>
+
+									</div>
+
+									<div class="item">
+
+										<p><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+												aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+												class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+												aria-hidden="true"></i></p>
+										<p>My first encounter without Vera was about a year ago. I was retiring and
+											looking for
+											personal medical insurance. I google several places came across Vera. I
+											reached out
+											to her and I must say she changed my life. She made a scary situation,
+											peaceful.
+											After speaking to her all of my needs were met and I was absolutely
+											satisfied and
+											grateful. After being in customer service for 23yrs, I must say she was all
+											that. I
+											thrived on giving good customer service and she was exceptional. Vera thank
+											you for
+											helping me at a difficult time in my life. I believe I have a friend now for
+											life.
+											Thanks Again</p>
+										<p><strong>- Denice Fenton</strong></p>
+
+									</div>
+
+									<div class="item">
+
+										<p><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+												aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+												class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+												aria-hidden="true"></i></p>
+										<p>My agent Ms Vera is simply the BEST. she took her time to explain to me all I
+											need to
+											know and even parts that were confusing. I'm definitely recommending to all
+											my
+											friends and family.</p>
+										<p><strong>- Aifie Ano</strong></p>
+
+									</div>
+
+
+									<br />
+									<br />
+									<div class="btn-rve">
+										<a href="" title="Google Reviews" target="_blank" rel="nofollow">
+											<img class="img-responsive read-img" src="img/google-reviews.jpg"
+												alt="Google Reviews">
+										</a>
 									</div>
 								</div>
-								
-								<a>Who We are</a>
-							</div>
-							<div class="row">
-								<div class="col-md-6">
-									<p class="post-title">At OnePoint Insurance Agency, we are committed to providing you with
-										the best service possible.We offer services across Georgia and beyond. </p>
-									<ul class="post-meta">
-										<li><a href="#">Read More</a></li>
-									</ul>
-								</div>
-								<div class="col-md-6">
-									<a class="post-img" href="blog-post.html"><img src="img/post-1.jpg" alt=""></a>
-								</div>
+
 							</div>
 						</div>
-						
 					</div>
-				</div>
 
 
-
-			</div>
-
-			<div class="row">
-
-				<div class="clearfix visible-md visible-lg"></div>
-				<div class="col-md-6">
-					<div class="post">
-						<a class="post-img" href="blog-post.html"><img src="img/post-4.jpg" alt=""></a>
-						<div class="post-body">
-							<div class="post-category">
-								<a href="category.html">Our Mission</a>
-							</div>
-							<h3 class="post-title"><a>Our Mission is to ensure that our clients receive the protection
-									they need. We strive to make sure that our clients are well protected from any
-									potential risks that may arise.
-								</a></h3>
-							<ul class="post-meta">
-								<li><a href="author.html">John Doe</a></li>
-								<li>20 April 2018</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-
-
-
-
-				<div class="col-md-6">
-					<div class="post">
-						<a class="post-img" href="blog-post.html"><img src="img/post-7.jpg" alt=""></a>
-						<div class="post-body">
-							<div class="post-category">
-								<a href="category.html">Our Vision</a>
-							</div>
-							<h3 class="post-title"><a>Our Vision is to provide quality insurance services that meet all
-									our clients’ needs. We understand that life can be unpredictable so, we will always
-									strive to make sure our clients are prepared for any situation.</a></h3>
-							<ul class="post-meta">
-								<li><a href="author.html">John Doe</a></li>
-								<li>20 April 2018</li>
-							</ul>
-						</div>
-					</div>
 				</div>
 			</div>
 
 
 
 
-			<div class="row">
-				<div class="col-md-12">
+
+
+
+			<div class="row" style="margin-top: 50px;">
+				<div class="col-md-12" style="text-align: center;">
 					<div class="section-title">
-						<h2 class="title">Our Services</h2>
+						<h2 class="title">
+							<p class="get-quote-logo">
+								<span class="angle1"><i class="fa fa-angle-right"></i></span><span class="angle2"><i
+										class="fa fa-angle-right"></i></span><span class="angle3"><i
+										class="fa fa-angle-right"></i></span> Recent news feed
+								<span class="angle1"><i class="fa fa-angle-left"></i></span><span class="angle2"><i
+										class="fa fa-angle-left"></i></span><span class="angle3"><i
+										class="fa fa-angle-left"></i></span>
+							</p>
+						</h2>
+						<h1>Latest news & articles <br> from the blog</h1>
 					</div>
+
 				</div>
 				<div class="col-md-4">
 					<div class="post post-sm">
@@ -580,19 +821,19 @@
 					<ul>
 						<li>
 							<a href="#" class="social-facebook">
-								<i class="fa fa-facebook"></i>
+								<i class="fab fa-facebook"></i>
 								<span>21.2K<br>Followers</span>
 							</a>
 						</li>
 						<li>
 							<a href="#" class="social-twitter">
-								<i class="fa fa-twitter"></i>
+								<i class="fab fa-twitter"></i>
 								<span>10.2K<br>Followers</span>
 							</a>
 						</li>
 						<li>
 							<a href="#" class="social-google-plus">
-								<i class="fa fa-google-plus"></i>
+								<i class="fab fa-google-plus"></i>
 								<span>5K<br>Followers</span>
 							</a>
 						</li>
@@ -1064,10 +1305,10 @@
 						<p>Our team is here to help you understand your risk and make sure that you have the right
 							coverage.</p>
 						<ul class="contact-social">
-							<li><a href="#" class="social-facebook"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#" class="social-twitter"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#" class="social-google-plus"><i class="fa fa-google-plus"></i></a></li>
-							<li><a href="#" class="social-instagram"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#" class="social-facebook"><i class="fab fa-facebook"></i></a></li>
+							<li><a href="#" class="social-twitter"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#" class="social-google-plus"><i class="fab fa-google-plus"></i></a></li>
+							<li><a href="#" class="social-instagram"><i class="fab fa-instagram"></i></a></li>
 						</ul>
 					</div>
 				</div>
@@ -1125,7 +1366,64 @@
 	</footer>
 
 
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="https://agencywebsites.ezlynx.com/scripts/browser-update.js"></script>
+	<script type="text/javascript" src="https://agencywebsites.ezlynx.com/bootstrap3/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://agencywebsites.ezlynx.com/scripts/quote.js"></script>
 
+
+	<script type="text/javascript" src="js/custom.js"></script>
+
+	<script type="text/javascript" src="js/slick.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('.agency-logos').slick({
+				slidesToShow: 5,
+				slidesToScroll: 1,
+				autoplay: true,
+				autoplaySpeed: 0,
+				speed: 3000,
+				cssEase: 'Linear',
+				arrows: false,
+				dots: false,
+				pauseOnHover: false,
+				responsive: [{
+					breakpoint: 1200,
+					settings: {
+						slidesToShow: 4
+					}
+				}, {
+					breakpoint: 768,
+					settings: {
+						slidesToShow: 3
+					}
+				}, {
+					breakpoint: 520,
+					settings: {
+						slidesToShow: 2
+					}
+				}]
+			});
+		});
+	</script>
+	<script>
+		$('.navbar-toggle').click(function () {
+
+			$('.logo-agency').toggleClass("bg-color");
+			$('.navbar').toggleClass("bg-color");
+
+		});
+		$('#myCarousel').carousel({
+			interval: 3000
+		});
+		$('#myCarousell').carousel({
+			interval: 3000
+		});
+		$('#myCarousel2').carousel({
+			interval: 7000
+		});
+	</script>
 
 
 </body>
